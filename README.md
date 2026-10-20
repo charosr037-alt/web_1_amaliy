@@ -1,1 +1,0 @@
-# web_1_amaliy
