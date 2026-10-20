@@ -1,0 +1,169 @@
+/* Zarafshon kafe — tashqi CSS fayli */
+:root {
+    --asosiy: #1f3a5f;
+    --urg'u: #d97706;
+    --fon: #fff8ed;
+    --matn: #292524;
+}
+
+/* Umumiy sahifa */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--fon);
+    color: var(--matn);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 18px 8%;
+}
+
+.belgi {
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fbbf24;
+    text-decoration: underline;
+}
+
+/* Asosiy matn va sarlavhalar */
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 28px 22px;
+}
+
+h1 {
+    color: #1f3a5f;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+    color: #b45309;
+}
+
+h2 {
+    border-bottom: 2px solid #d97706;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+.kirish {
+    background-color: rgba(217, 119, 6, 0.08);
+    padding: 18px;
+}
+
+.izoh {
+    font-style: italic;
+    color: #57534e;
+}
+
+mark {
+    background-color: #fde68a;
+    color: #292524;
+    font-weight: 700;
+}
+
+blockquote {
+    border-left: 4px solid #d97706;
+    margin: 20px 0;
+    padding: 10px 18px;
+    font-style: italic;
+    color: #1f3a5f;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: #1f3a5f;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6b21a8;
+}
+
+a:hover {
+    color: #d97706;
+}
+
+dt {
+    color: #1f3a5f;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+#aloqa {
+    border-top: 2px solid #d97706;
+    margin-top: 25px;
+    padding-top: 12px;
+}
+
+footer {
+    background-color: rgb(31, 58, 95);
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
+
+footer a, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #fbbf24;
+}
+
+/* Ekran kichik bo'lsa navigatsiya satrma-satr ko'rinadi */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+}
